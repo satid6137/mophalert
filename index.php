@@ -18,7 +18,9 @@ $loginUrl = HealthID::loginUrl();
 
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $hospitalName; ?> - MOPH Alert</title>
+    <title>ระบบส่ง MOPH Alert -
+        <?php echo $hospitalName; ?>
+    </title>
 
     <!-- ไอคอนระบบ -->
     <link rel="icon" type="image/png" href="assets/icons/health48.png">
@@ -49,6 +51,11 @@ $loginUrl = HealthID::loginUrl();
 <?php endif; ?>
 
 <body>
+    <div class="topbar">
+        <div class="left">ระบบส่ง MOPH Alert -
+            <?php echo $hospitalName; ?>
+        </div>
+    </div>
     <div class="container" style="text-align:center;">
 
         <!-- ไอคอนโรงพยาบาล -->
